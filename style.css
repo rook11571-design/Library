@@ -1,7 +1,7 @@
 .card{
     background-color: rgb(33, 122, 204);
     /* width: */
-    min-width:200px;
+    min-width:300px;
     padding:20px;
     border-radius: 10px;
     display:flex;
@@ -29,4 +29,8 @@ label{
 }
 dialog{
     margin:auto;
+}
+#status{
+    display:flex;
+    justify-content: space-between;
 }
