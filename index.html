@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container"></div>
     <button>New Book</button>
+    <dialog>
+      <form action="" id="newBook">
+        <label for="title"
+          >Book title:
+          <br />
+          <input name="title" id="title" type="text" />
+        </label>
+        <br />
+        <label for="author">
+          Book author:
+          <br />
+          <input name="author" id="author" type="text"
+        /></label>
+        <br />
+        <label for="page">
+          Book pages:
+          <br />
+          <input name="page" id="page" type="text"
+        /></label>
+        <br />
+        <fieldset>
+          <legend>Have you read it yet?</legend>
+          <br />
+          <label for="read-true">
+            <input type="radio" id="read-true" value="true" />
+            yes
+          </label>
+          <label for="read-false">
+            <input type="radio" id="read-false" value="false" />
+            no
+          </label>
+        </fieldset>
+        <br />
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </dialog>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

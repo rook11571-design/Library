@@ -1,0 +1,32 @@
+.card{
+    background-color: rgb(33, 122, 204);
+    /* width: */
+    min-width:200px;
+    padding:20px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+body{
+    background-color: #E3D8C2;
+}
+#container{
+    width:50%;
+    color:#FFFFFF;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+}
+*{
+    padding:0;
+    margin:0;
+}
+label{
+    display: flex;
+    align-items: center;
+}
+dialog{
+    margin:auto;
+}
