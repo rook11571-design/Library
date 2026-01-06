@@ -30,7 +30,7 @@ label{
 dialog{
     margin:auto;
 }
-#status{
+.status{
     display:flex;
     justify-content: space-between;
 }
